@@ -15,7 +15,7 @@ class GridView extends Component {
     };
   }
   componenteWillMount(){
-    dataSource: dataSource.cloneWithRows(this.props.),
+    dataSource: dataSource.cloneWithRows(this.props.dataSource),
   }
   render() {
     return (
@@ -65,11 +65,14 @@ GridView.defaultProps = {
   imagesPerRow: 3,
   imageMargin: 5,
   backgroundColor: 'black',
+  dataSource: [],
 }
 GridView.propTypes = {
   imagesPerRow: React.PropTypes.number,
   imageMargin: React.PropTypes.number,
   backgroundColor: React.PropTypes.string,
+  renderItem: React.PropTypes.element.isRequired,
+  dataSource: React.PropTypes.array.isRequired,
 }
 
-module.exports = GridView
+export default GridView
