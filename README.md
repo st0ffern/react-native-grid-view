@@ -17,7 +17,7 @@ var GridView = require("react-native-gridview");
 import GridView from "react-native-gridview"
 ```
 
-```html
+```javascript
 render(){
   return(
     <GridView
