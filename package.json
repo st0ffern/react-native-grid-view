@@ -1,0 +1,26 @@
+{
+  "name": "react-native-grid-view",
+  "version": "0.1.0",
+  "description": "React Native`s ListView but with grid setup.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stoffern/react-native-grid-view.git"
+  },
+  "author": "stoffern",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stoffern/react-native-grid-view/issues"
+  },
+  "homepage": "https://github.com/stoffern/react-native-grid-view#readme",
+  "dependencies": {
+    "react-native-sglistview": "^0.3.2"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.25.0",
+    "react": ">=0.14.0 || ^15.0.0"
+  },
+}
